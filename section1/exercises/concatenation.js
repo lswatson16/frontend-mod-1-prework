@@ -6,7 +6,7 @@ One example is already completed. Your task is to complete
 any remaining prompt.
 
 When navigated to the root of this project directory, you should be able to run this
-file from your terminal with the command `node section1/exercises/dataTypes.js`
+file from your terminal with the command `node section1/exercises/concatenation.js`
 */
 
 // EXAMPLE: Write code that combines the variables below into another string:
@@ -33,7 +33,7 @@ Javascript converts the number into a string in order to combine the two togethe
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log("The" + speedy + " jumped over the " + slowPoke);
+console.log("The " + speedy + " jumped over the " + slowPoke);
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -42,7 +42,7 @@ console.log("The" + speedy + " jumped over the " + slowPoke);
 slowPoke = "tortoise";
 speedy = "hare";
 
-console.log("In a predictable result, the " + slowPoke + " beat the " + speedy "!");
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
 // YOU DO:
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
@@ -51,7 +51,7 @@ var name = "Kat";
 var tasksForMonday = "laundry and dishes";
 var tasksForTuesday = "reading and studying";
 
-console.log(name + " has completed today's chores, " +tasksForMonday + " so she's going to get ahead on Tuesday's chores " + tasksForTuesday ".");
+console.log(name + " completed today's chores, " + tasksForMonday + ". Now she can get ahead on Tuesday's chores, " + tasksForTuesday + ".");
 
 //-------------------
 // FINAL CHECK
