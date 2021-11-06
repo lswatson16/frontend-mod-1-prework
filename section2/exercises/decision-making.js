@@ -7,7 +7,7 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -39,15 +39,35 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+Lines 14-18 is an if...else statement that is checking a condition. When doorChoice is strictly equal to 1
+then the condition evaluates to true. The code block that runs is: bearClothing assigned to "hat".
+If false (meaning doorChoice does not strictly equal 1) then another block of code will run. In this example,
+if the condition evaluates to false then bearClothing is assigned to a string of "scarf".
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearClothing has a new value assigned to it after the first if statement.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+If variable doorChoice equals 3, then bearClothing equals scarf. This is due to the if...else statement in lines 14-18.
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+Lines 27 - 35 is a more complex statement with several conditions introduced by the initial if statement,
+followed by else if statements that providing additional conditions. Once a condition is evaluated as true, then
+that script in the code block will run. The else statement block of code will run when none of the conditions above
+evaluate to true.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+When variable bearChoice equals 3, the final outcome is "You run as fast as you can into the next room. It's full of snakes!"
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+When variable doorChoice equals 1 and variable bearChoice equals 2, the final outcome is:
+"You tell the bear the hat is too small and it starts to cry!"
+
 7. What is your favorite ending?
+"You stay with the bear and become it's best friend!"
 */
